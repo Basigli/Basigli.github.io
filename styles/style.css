@@ -1,0 +1,50 @@
+:root {
+    --background: #24293e;
+    /*--selections: #8ebbff;*/
+    --selections: #ad6364;
+    --selections-1: #ad6364;
+    --selections-2: #c98181;
+    --selections-3: #da9f9e;
+    --selections-4: #e1bebd;
+    --text-font:  #e3e3e4;
+}
+
+body {
+    /*background: rgb(6, 39, 77);*/
+    background: var(--background);	
+}
+
+
+h1 {
+    color:var(--selections-2);
+    font-size: 48px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color:var(--selections-3);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    position:absolute;
+    top: 15%;
+    width: 100%;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.fade-in {
+	animation: fadeIn 4s;
+	opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
